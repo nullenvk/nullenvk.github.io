@@ -1,5 +1,4 @@
-#baseURL = 'https://nullenvk.pl/'
-baseURL = 'https://nullenvk.pages.lain.la/personal-site/'
+baseURL = 'https://nullenvk.pl/'
 languageCode = 'en-us'
 title = "Nullenvk's blog"
 theme = 'no-style-please'
