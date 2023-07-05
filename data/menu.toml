@@ -3,7 +3,7 @@ title = "Hi! Welcome to my personal homepage"
 
 [[entries]]
 title = "About me"
-url = "/about"
+url = "about"
 
 [[entries]]
 title = "Posts"
