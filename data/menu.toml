@@ -1,0 +1,16 @@
+[[entries]]
+title = "Hi! Welcome to my personal homepage"
+
+[[entries]]
+title = "About me"
+url = "/about"
+
+[[entries]]
+title = "Posts"
+
+  [entries.post_list]
+  limit = 5
+  section = "posts"
+  show_more = true
+  show_more_text = "See archive..."
+  show_more_url = "posts"
