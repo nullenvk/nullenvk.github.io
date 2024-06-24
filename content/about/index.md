@@ -7,5 +7,5 @@ draft: false
 Hi! Although this page is still WIP, here's a couple of places where you can probably find me:
 
 - Github: [nullenvk](https://github.com/nullenvk)
-- Fediverse: @nullenvk@fedi.layer02.net
+- Fediverse: @nullenvk@miku.place
 - Discord: nullenvk
