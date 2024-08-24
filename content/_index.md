@@ -2,7 +2,9 @@
 title: "Home"
 ---
 
-# Work in progress
+# Hello! 
+
+This blog is still work in progress.
 
 ***
 ### Buttons 
