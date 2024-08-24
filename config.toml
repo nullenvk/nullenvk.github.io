@@ -7,9 +7,9 @@ theme = 'my-theme'
 [params]
     author = "nullenvk"
 
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts"
-    weight = 10
+#[menu]
+#  [[menu.main]]
+#    identifier = "posts"
+#    name = "Posts"
+#    url = "/posts"
+#    weight = 10
