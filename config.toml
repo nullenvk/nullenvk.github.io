@@ -1,10 +1,15 @@
 baseURL = 'https://nullenvk.pl/'
 languageCode = 'en-us'
 title = "Nullenvk's blog"
-theme = 'no-style-please'
+author = "Nullenvk"
+theme = 'my-theme'
 
 [params]
-    [params.theme_config]
-        appearance = "dark"
-        back_home_text = ".."
-        date_format = "2006-01-02"
+    author = "nullenvk"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 10

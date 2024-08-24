@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+
+	{{ with .OutputFormats.Get "rss" -}}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+	{{ end -}}
+
+</head>
+
+<body>
+
+<div class="body-container window">
+
+<div class="title-bar">
+    <div class="title-bar-text">{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</div>
+    <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+    </div>
+</div>
+
+<div class="window-body">
+
+{{ partial "nav.html" . }}
+
+<div class="window" role="tabpanel">
+<div class="window-body">

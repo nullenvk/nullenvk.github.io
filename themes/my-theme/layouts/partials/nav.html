@@ -1,0 +1,6 @@
+<menu role="tablist">
+  <li role="tab"><a href="{{ .Site.BaseURL }}"> {{ .Site.Title }} </a></li>
+  {{ range.Site.Menus.main }}
+  <li role="tab"><a href="{{ .URL }}">{{ .Name }}</a></li>
+  {{ end }}
+</menu>

@@ -1,0 +1,16 @@
+/* LAYOUT */
+
+body { 
+  background: #0C0C0C;
+  max-width: 45rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2, h3, h4 {
+    font-size: 16px;
+}
