@@ -2,7 +2,8 @@
 
 body { 
   background-image: url("/img/bgAscent.jpg");
-  background-size: 100% auto;
+  background-position: top;
+  background-size: cover;
 
   max-width: 45rem;
   padding: 1rem;
