@@ -1,7 +1,6 @@
 ---
 title: "Hello World!"
 date: 2024-12-15T15:57:39+01:00
-draft: true
 ---
 
 Hi!
