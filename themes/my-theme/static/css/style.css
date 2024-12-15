@@ -1,8 +1,7 @@
 /* LAYOUT */
 
 body { 
-  background-image: url("/img/bgAscent.jpg");
-  background-position: top;
+  background: url("/img/bgAscent.jpg") no-repeat center center fixed;
   background-size: cover;
 
   max-width: 45rem;
