@@ -12,5 +12,5 @@ You may also find me on:
 - Fediverse: [@nullenvk@yourwalls.today](https://yourwalls.today/nullenvk)
 - Github: [nullenvk](https://github.com/nullenvk)
 ***
-### Buttons 
+### Buttons
 {{< frens >}}
